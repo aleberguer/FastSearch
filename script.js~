@@ -1,0 +1,2 @@
+var win=window.open("https://images.google.com","_blank");
+win.focus();
