@@ -9,7 +9,7 @@ chrome.omnibox.onInputEntered.addListener(
     var busqueda = text.split(' !')[0];   
     var parametro= text.split(' !')[1];      
     if (parametro==undefined) {	
-	navigate("https://www.google.com.uy/search?q="+busqueda)        
+	     navigate("https://www.google.com.uy/search?q="+busqueda)        
     }		
     if (parametro.match("im")) {	
        navigate("https://www.google.com/search?tbm=isch&q="+busqueda+"&tbs=imgo:1");       
