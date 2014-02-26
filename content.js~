@@ -1,7 +1,0 @@
-var div = document.createElement("div");	
-	div.style.color = "red";
-	div.style.position= "fixed"; 
-	div.style.fontSize = "20px"; 
-	div.style.float = "right" 
-	div.innerHTML = "Powered by fast!";
-	document.body.insertBefore(div, document.body.firstChild);

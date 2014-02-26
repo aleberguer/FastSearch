@@ -1,9 +1,0 @@
-try {   
-    alert("entra");	     
-    window.external.AddSearchProvider("https://googledrive.com/host/0B85M2cb9QBqyYlItR1JpOUV6N2c/main.html");         
-}
-catch (e) {
-    // do nothing
-}
-
-
